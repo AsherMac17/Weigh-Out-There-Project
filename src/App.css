@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New", monospace;
+}
+
+
+.textfield-container input {
+  width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  border: 2px solid peru;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+.textfield-container input:focus {
+  border-color: saddlebrown;
+  box-shadow: 0 0 8px rgba(205, 133, 63, 0.5);
+}
+
+.button {
+  background-color: wheat;
+  color: black;
+  padding: 6px 9px;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+}
+
+.button:hover {
+  background-color: peru;
+  transform: scale(1.05);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.planet-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
