@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Weigh-Out-There-Project/static/css/main.1756064f.css",
+    "main.js": "/Weigh-Out-There-Project/static/js/main.7c96f72b.js",
+    "static/js/453.cd895280.chunk.js": "/Weigh-Out-There-Project/static/js/453.cd895280.chunk.js",
+    "static/media/moon.png": "/Weigh-Out-There-Project/static/media/moon.56ade8da81708e0cde34.png",
+    "static/media/mercury.png": "/Weigh-Out-There-Project/static/media/mercury.dded44e30f3f44528b56.png",
+    "static/media/jupiter.png": "/Weigh-Out-There-Project/static/media/jupiter.8f3fb09becce9e390358.png",
+    "index.html": "/Weigh-Out-There-Project/index.html",
+    "main.1756064f.css.map": "/Weigh-Out-There-Project/static/css/main.1756064f.css.map",
+    "main.7c96f72b.js.map": "/Weigh-Out-There-Project/static/js/main.7c96f72b.js.map",
+    "453.cd895280.chunk.js.map": "/Weigh-Out-There-Project/static/js/453.cd895280.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1756064f.css",
+    "static/js/main.7c96f72b.js"
+  ]
+}
